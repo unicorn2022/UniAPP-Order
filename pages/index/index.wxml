@@ -1,3 +1,55 @@
-<view>
-    你好
+<view class="search-view">
+	<input type="text" placeholder="请输入餐品关键词" class="input-cell"/>
+	<image src="/images/index/search.png" class="search-img"></image>
+</view>
+
+<view class="swiper-view">
+	<swiper 
+		indicator-dots="true" 
+		indicator-color="#FFFFFF" 
+		indicator-active-color="#FF0000" 
+		autoplay 
+		class="swiper-wrap"
+	>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (1).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (2).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (3).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (4).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (5).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (6).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (7).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+		<swiper-item class="swiper-items">
+			<view class="swiper-img-box">
+				<image src="/images/index/lty (8).jpg" class="swiper-img" mode="aspectFit"/>
+			</view>
+		</swiper-item>
+	</swiper>
 </view>

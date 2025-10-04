@@ -1,2 +1,8 @@
-// index.js
-Page({})
+Page({
+	data: {
+		
+	},
+	
+	onLoad: function (options) {
+	}
+})
