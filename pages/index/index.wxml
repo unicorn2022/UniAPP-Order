@@ -14,7 +14,7 @@
 		<block wx:for="{{bannerList}}">
 			<swiper-item class="swiper-items">
 				<view class="swiper-img-box">
-					<image src="{{item.coverUrl}}" class="swiper-img" mode="aspectFit"/>
+					<image src="{{item.cover}}" class="swiper-img" mode="aspectFit"/>
 				</view>
 			</swiper-item>
 		</block>
