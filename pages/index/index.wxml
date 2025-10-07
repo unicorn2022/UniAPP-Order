@@ -14,7 +14,13 @@
 		<block wx:for="{{bannerList}}">
 			<swiper-item class="swiper-items">
 				<view class="swiper-img-box">
-					<image src="{{item.cover}}" class="swiper-img" mode="aspectFit"/>
+					<image 
+                        src="{{item.cover}}" 
+                        class="swiper-img" 
+                        mode="aspectFit" 
+                        bind:tap="gotoBannerContent"
+                        data-id="{{item._id}}"
+                    />
 				</view>
 			</swiper-item>
 		</block>

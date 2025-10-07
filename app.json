@@ -3,7 +3,8 @@
         "pages/index/index",
         "pages/type/type",
         "pages/cart/cart",
-        "pages/user/user"
+        "pages/user/user",
+        "pages/index/bannerContent/bannerContent"
     ],
     "window": {
         "navigationBarTextStyle": "black",

@@ -5,6 +5,7 @@ Page({
 		this.getBanners()
 	},
 
+    /* 从数据库中获取轮播图数据 */
 	async getBanners() {
 		// 1. 查出原始数据
 		const { data } = await wx.cloud.database().collection('shop_banners').get()
@@ -21,5 +22,12 @@ Page({
 		}))
 		// 5. 设置属性
 		this.setData({ bannerList })
-	}
+    },
+
+    gotoBannerContent(event) {
+        let bannerID = event.currentTarget.dataset.id
+        wx.navigateTo({
+          url: '/pages/index/bannerContent/bannerContent?bannerID=' + bannerID,
+        })
+    }
 })
